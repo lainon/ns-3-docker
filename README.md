@@ -1,6 +1,6 @@
 # Building
 
-From within the directory containing the dockerfile
+From within the directory containing the Dockerfile, run:
 
 `docker build -t lainon/ns-3 .`
 
