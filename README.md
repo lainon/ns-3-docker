@@ -7,4 +7,4 @@
 `docker run -it [user]/ns-3 /bin/bash`
 
 # TODO: 
--[ ] bind mounts for development on host
+- [ ] bind mounts for development on host
