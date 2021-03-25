@@ -1,10 +1,12 @@
 # Building
 
-`docker build -t [user]/ns-3 path/to/Dockerfile`
+From within the directory containing the dockerfile
+
+`docker build -t lainon/ns-3 .`
 
 # Running
 
-`docker run -it [user]/ns-3 /bin/bash`
+`docker run -it lainon/ns-3 /bin/bash`
 
 # TODO: 
 - [ ] bind mounts for development on host
