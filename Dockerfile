@@ -13,4 +13,5 @@ RUN wget https://www.nsnam.org/releases/ns-allinone-3.32.tar.bz2 && \
     tar xvf ns-allinone-3.32.tar.bz2 && \
     cd ns-allinone-3.32 && \
     python3 build.py && \
+    cd ~ && \
     rm ns-allinone-3.32.tar.bz2
